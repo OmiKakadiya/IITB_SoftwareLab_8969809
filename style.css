@@ -110,10 +110,10 @@ th {
 
 footer {
     text-align: center;
-    padding: 40px;
+    padding: 10px;
     background-color: #4CAF50;
     color: white;
     position: fixed;
-    width: 50%;
+    width: 100%;
     bottom: 0;
 }
