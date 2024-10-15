@@ -1,6 +1,11 @@
 Course : CS 699 - Software Lab
-Project : Dharamshala Booking and Allocation System
 
 24m0769 - Kush Mangukiya
 24m0789 - Omi Kakadiya
 24m0809 - Pratham Shah
+
+Project : Dharamshala Booking and Allocation System
+
+This project is aimed to help pilgrims who face difficulties in finding and booking suitable Dharamshala in Dharmik places efficiently. 
+Dharamshalas also struggle with managing room availability and reservations.
+Key features and Functionalities : Room Availability, Booking Management, Secure Payment Integration, Email notification, Location & Map
