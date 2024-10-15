@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dharamshala Booking and Allocation System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Dharamshala Booking and Allocation System</h1>
+        <p>Book a room and manage your stay efficiently.</p>
+    </header>
+
+    <main>
+        <section class="booking-form">
+            <h2>Book a Room</h2>
+            <form action="/submit-booking" method="POST">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="check-in">Check-in Date:</label>
+                    <input type="date" id="check-in" name="check_in" required>
+                </div>
+                <div class="form-group">
+                    <label for="check-out">Check-out Date:</label>
+                    <input type="date" id="check-out" name="check_out" required>
+                </div>
+                <div class="form-group">
+                    <label for="room-type">Room Type:</label>
+                    <select id="room-type" name="room_type" required>
+                        <option value="single">Single Room</option>
+                        <option value="double">Double Room</option>
+                        <option value="family">Family Room</option>
+                    </select>
+                </div>
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+
+        <section class="room-availability">
+            <h2>Room Availability</h2>
+            <p>Check room availability below:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Room Number</th>
+                        <th>Room Type</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>101</td>
+                        <td>Single</td>
+                        <td>Available</td>
+                    </tr>
+                    <tr>
+                        <td>102</td>
+                        <td>Double</td>
+                        <td>Occupied</td>
+                    </tr>
+                    <tr>
+                        <td>103</td>
+                        <td>Family</td>
+                        <td>Available</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Dharamshala Booking System</p>
+    </footer>
+</body>
+</html>
